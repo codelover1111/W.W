@@ -1,0 +1,5 @@
+stepdefinition_weight_watchers/WeightWatchersSD.class
+framework_weight_watchers/WeightWatchersPage.class
+framework_weight_watchers/TestRunner.class
+framework_weight_watchers/BasePage.class
+stepdefinition_weight_watchers/SharedSD.class

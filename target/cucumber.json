@@ -1,0 +1,203 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3868826229,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the default browser",
+            "match": {
+              "location": "WeightWatchersSD.userOpenTheDefaultBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7699211,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page",
+            "match": {
+              "location": "WeightWatchersSD.userNavigateToWeightWatchers()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7143904778,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.before()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Weight Watchers functions feature",
+        "description": "",
+        "id": "weight-watchers-functions-feature;weight-watchers-functions-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 54995937,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3320179082,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on Find a Studio right corner of the page,",
+            "match": {
+              "location": "WeightWatchersSD.userClickOnFindAStudio()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5723562,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verify loaded page title contains “Find WW Studios \u0026 Meetings Near You  WW USA”",
+            "match": {
+              "location": "WeightWatchersSD.userVerifyLoadedPageTitleContainsFindWWStudiosMeetingsNearYouWWUSA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117774847,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user in the search field, search for meetings for zip code: \"10011\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10011",
+                  "offset": 61
+                }
+              ],
+              "location": "WeightWatchersSD.userInTheSearchFieldSearchForMeetingsForZipCode(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242648732,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on arrow sign",
+            "match": {
+              "location": "WeightWatchersSD.userClickOnArrowSign()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 502795609,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user print the title of the first result and the distance (located on the right of location title/name)",
+            "match": {
+              "location": "WeightWatchersSD.userPrintTheTitleOfTheFirstResult()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 404829421,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on the first search result and then, verify displayed location name/title matches with the name of the first searched result that was clicked.",
+            "match": {
+              "location": "WeightWatchersSD.userVerifyTitle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59297702,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user from this location page, print TODAY’s hours of operation (located towards the bottom of the page)",
+            "match": {
+              "location": "WeightWatchersSD.printTodaysHoursOfOperation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 427693376,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user create a method to print the number of meeting the each person(under the scheduled time) has a particular day of the week",
+            "match": {
+              "location": "WeightWatchersSD.printTheNumberOfMeetingDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29537,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user log out from the page",
+            "match": {
+              "location": "WeightWatchersSD.userLogOutFromThePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@regression-weightWatchers"
+          }
+        ]
+      }
+    ],
+    "name": "Weight Watchers functions feature",
+    "description": "",
+    "id": "weight-watchers-functions-feature",
+    "keyword": "Feature",
+    "uri": "weightwatchers.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
